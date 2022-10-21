@@ -22,10 +22,10 @@
     "test:ts": "tsc --noEmit",
     "test:js": "jest --coverage",
     "lint": "yarn lint:format && yarn lint:js",
-    "lint:format": "prettier --check \"./**/*.{js,jsx,ts,tsx}\"",
-    "lint:js": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint \"./**/*.{js,jsx,ts,tsx}\" --fix",
-    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\""
+    "lint:format": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:js": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "eslintConfig": {
     "extends": [
